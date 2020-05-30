@@ -31,5 +31,12 @@ namespace DDDTest.Tests
             var t2 = new Temparature(12.3f);
             Assert.AreEqual(true, t1 == t2);
         }
+
+        public void 温度EqualEqual2()
+        {
+            var t1 = new Temparature(12.0f);
+            var t2 = new Temparature(12.0f);
+            Assert.AreEqual(true, t1 == t2);
+        }
     }
 }
